@@ -2,6 +2,31 @@ main {
   .video-container {
     min-height: 620px;
     background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $sameColor;
     @include backGroundPosition;
+    @include sameMainText;
+  }
+  .photo-painting{
+    min-height: 1000px;
+    border-color: $sameColor;
+    @include sameMainText;
+  }
+  .empy-space {
+    min-height: 650px;
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+    @include backgrounEmpySpace;
+  }
+  .painting-tools{
+    color: $sameColor;
+    min-height: 2100px;
+    background-color: #222222;
+    @include sameMainText;
+  }
+  .second-empy-space {
+    min-height: 650px;
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
+    @include backgrounEmpySpace;
   }
 }

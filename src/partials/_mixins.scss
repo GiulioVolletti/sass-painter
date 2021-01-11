@@ -1,0 +1,32 @@
+@mixin backGroundPosition {
+   background-position: center;
+}
+
+@mixin allContainer {
+  width: 80%;
+  margin: auto;
+}
+
+@mixin itemAlign {
+  vertical-align: middle;
+}
+
+@mixin backgrounEmpySpace {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@mixin sameMainText{
+  text-align: center;
+  h1{
+    padding-top: 100px;
+  }
+  p {
+    margin: 20px 0;
+  }
+  img {
+    margin-top: 50px;
+    width: 100%;
+  }
+}

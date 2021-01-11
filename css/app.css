@@ -37,6 +37,12 @@ header .header-top .first-half li a:hover {
   color: white;
   text-decoration: underline;
 }
+header .header-top .first-half li a i {
+  color: #009CFF;
+  padding-right: 5px;
+  font-size: 15px;
+  vertical-align: middle;
+}
 header .header-top .second-half {
   height: 50%;
 }
@@ -60,6 +66,7 @@ header .header-top .second-half ul li {
 }
 header .header-top .second-half ul li:hover {
   background-color: white;
+  cursor: pointer;
 }
 header .header-top .second-half ul li:hover a {
   color: black;
@@ -69,6 +76,11 @@ header .header-top .second-half ul li a {
   text-decoration: none;
   height: 100%;
   vertical-align: middle;
+}
+header .header-top .second-half ul li a i {
+  vertical-align: middle;
+  color: grey;
+  font-size: 12px;
 }
 header .center-header {
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
@@ -83,5 +95,64 @@ header nav {
 main .video-container {
   min-height: 620px;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
   background-position: center;
+  text-align: center;
+}
+main .video-container h1 {
+  padding-top: 100px;
+}
+main .video-container p {
+  margin: 20px 0;
+}
+main .video-container img {
+  margin-top: 50px;
+  width: 100%;
+}
+main .photo-painting {
+  min-height: 1000px;
+  border-color: white;
+  text-align: center;
+}
+main .photo-painting h1 {
+  padding-top: 100px;
+}
+main .photo-painting p {
+  margin: 20px 0;
+}
+main .photo-painting img {
+  margin-top: 50px;
+  width: 100%;
+}
+main .empy-space {
+  min-height: 650px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+main .painting-tools {
+  color: white;
+  min-height: 2100px;
+  background-color: #222222;
+  text-align: center;
+}
+main .painting-tools h1 {
+  padding-top: 100px;
+}
+main .painting-tools p {
+  margin: 20px 0;
+}
+main .painting-tools img {
+  margin-top: 50px;
+  width: 100%;
+}
+main .second-empy-space {
+  min-height: 650px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }

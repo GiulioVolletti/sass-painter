@@ -20,8 +20,14 @@ header {
           color: grey;
           text-decoration: none;
           &:hover {
-            color: white;
+            color: $sameColor;
             text-decoration: underline;
+          }
+          i {
+            color: #009CFF;
+            padding-right: 5px;
+            font-size: 15px;
+            @include itemAlign;
           }
         }
       }
@@ -33,7 +39,7 @@ header {
         justify-content: space-between;
         list-style-type: none;
         h1 {
-          color: white;
+          color: $sameColor;
           display: inline-block;
           @include itemAlign;
           padding-right: 5px;
@@ -42,19 +48,25 @@ header {
           width: calc(100% / 9);
           height: $allSize;
           line-height: $minHeight / 2;
-          color: white;
+          color: $sameColor;
           text-align: center;
           &:hover {
-            background-color: white;
+            background-color: $sameColor;
+            cursor: pointer;
             a {
               color: black;
             }
           }
           a {
-            color: white;
+            color: $sameColor;
             text-decoration: none;
             height: $allSize;
             @include itemAlign;
+            i {
+              @include itemAlign;
+              color: grey;
+              font-size: 12px;
+            }
           }
         }
       }
