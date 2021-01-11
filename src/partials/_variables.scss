@@ -1,3 +1,16 @@
 @mixin backGroundPosition {
    background-position: center;
 }
+
+@mixin allContainer {
+  width: 80%;
+  margin: auto;
+}
+
+@mixin itemAlign {
+  vertical-align: middle;
+}
+
+$halfSize : 50%;
+$allSize : 100%;
+$minHeight: 90px;
