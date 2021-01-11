@@ -1,0 +1,7 @@
+main {
+  .video-container {
+    min-height: 620px;
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+    @include backGroundPosition;
+  }
+}

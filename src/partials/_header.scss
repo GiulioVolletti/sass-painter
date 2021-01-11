@@ -1,0 +1,15 @@
+header {
+  .header-top {
+    min-height: 90px;
+    background-color: #101010
+  }
+  .center-header {
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+    min-height: 460px;
+    @include backGroundPosition;
+  }
+  nav {
+    min-height: 60px;
+    background-color: #E6E6E6;
+  }
+}

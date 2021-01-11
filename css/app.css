@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header .header-top {
+  min-height: 90px;
+  background-color: #101010;
+}
+header .center-header {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  min-height: 460px;
+  background-position: center;
+}
+header nav {
+  min-height: 60px;
+  background-color: #E6E6E6;
+}
+
+main .video-container {
+  min-height: 620px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+  background-position: center;
+}
