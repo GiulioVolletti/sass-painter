@@ -14,7 +14,7 @@ main {
     @include sameMainText;
   }
   .empy-space {
-    min-height: 650px;
+    min-height: $empySpaceMinHeight;
     background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
     @include backgrounEmpySpace;
   }
@@ -25,8 +25,22 @@ main {
     @include sameMainText;
   }
   .second-empy-space {
-    min-height: 650px;
+    min-height: $empySpaceMinHeight;
     background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
     @include backgrounEmpySpace;
+  }
+  .tool-effects {
+    min-height: $mainBottomHeight;
+    background-color: $sameColor;
+    h1 {
+      text-align: center;
+      padding: 100px 0;
+      color: $otherTextColor;
+    }
+  }
+  .additional-explore {
+    min-height: $mainBottomHeight;
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg");
+    background-position: center;
   }
 }

@@ -34,7 +34,7 @@ header .header-top .first-half li a {
   text-decoration: none;
 }
 header .header-top .first-half li a:hover {
-  color: white;
+  color: #FFFFFF;
   text-decoration: underline;
 }
 header .header-top .first-half li a i {
@@ -52,7 +52,7 @@ header .header-top .second-half ul {
   list-style-type: none;
 }
 header .header-top .second-half ul h1 {
-  color: white;
+  color: #FFFFFF;
   display: inline-block;
   vertical-align: middle;
   padding-right: 5px;
@@ -61,18 +61,18 @@ header .header-top .second-half ul li {
   width: calc(100% / 9);
   height: 100%;
   line-height: 45px;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
 }
 header .header-top .second-half ul li:hover {
-  background-color: white;
+  background-color: #FFFFFF;
   cursor: pointer;
 }
 header .header-top .second-half ul li:hover a {
   color: black;
 }
 header .header-top .second-half ul li a {
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   height: 100%;
   vertical-align: middle;
@@ -97,7 +97,7 @@ main .video-container {
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: #FFFFFF;
   background-position: center;
   text-align: center;
 }
@@ -113,7 +113,7 @@ main .video-container img {
 }
 main .photo-painting {
   min-height: 1000px;
-  border-color: white;
+  border-color: #FFFFFF;
   text-align: center;
 }
 main .photo-painting h1 {
@@ -134,7 +134,7 @@ main .empy-space {
   background-attachment: fixed;
 }
 main .painting-tools {
-  color: white;
+  color: #FFFFFF;
   min-height: 2100px;
   background-color: #222222;
   text-align: center;
@@ -155,4 +155,30 @@ main .second-empy-space {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+main .tool-effects {
+  min-height: 580px;
+  background-color: #FFFFFF;
+}
+main .tool-effects h1 {
+  text-align: center;
+  padding: 100px 0;
+  color: #333333;
+}
+main .additional-explore {
+  min-height: 580px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg");
+  background-position: center;
+}
+
+footer {
+  height: 400px;
+}
+footer .footer-top {
+  background-color: #ECECEC;
+  height: 80%;
+}
+footer .footer-bottom {
+  height: 20%;
+  background-color: #1E1E1E;
 }
